@@ -10,26 +10,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">
-        <a href="#" class="navbar-brand" id="navbar-site-title">Painel</a>
-
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#son-navbar-collapse"
-            aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda a navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse " id="son-navbar-collapse">
-           <form action="" class="form-inline son-form-field" id="navbar-search-form">
-               <input type="text" class="form-control son-form-field" placeholder="Pesquisar" id="navbar-search-field">
-           </form>
-           <div id="navbar-profile" class="ml-auto">
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZJR0V-0Gj4v1fYHNoYvF0zHUqKK9q0CnMN8-_ve9AcX1nJUx" alt="">
-               <spam>Usuario</spam>
-           </div>
+    <div class="d-flex" id="wrapper">
+    <!--SIDEBAR-->
+        <div id="sidebar-wrapper">
+            <div class="sidebar-heading">
+                <span>Painel da SON</span>
+            </div>
+                <div class="list-group list-group-flush border-right">
+                    <a href="#" class="list-group-item list-group-item-action">Inicio</a>
+                    <a href="#" class="list-group-item list-group-item-action">Funcionários</a>
+                    <a href="#" class="list-group-item list-group-item-action">Produtos</a>
+                    <a href="#" class="list-group-item list-group-item-action">Categorias</a>
+                    <a href="#" class="list-group-item list-group-item-action">Fornecedores</a>
+                    <a href="#" class="list-group-item list-group-item-action">Relatórios</a>
+                </div>
         </div>
-    </nav>
 
+
+    <!--CONTEUDO-->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">
+                <a href="#" class="navbar-brand" id="navbar-site-title">Painel</a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#son-navbar-collapse"
+                        aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda a navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="son-navbar-collapse">
+                    <form action="" class="form-inline son-form-field" id="navbar-search-form">
+                        <input type="text" class="form-control son-form-field" placeholder="Pesquisar" id="navbar-search-field">
+                    </form>
+                    <div id="navbar-profile" class="ml-auto">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZJR0V-0Gj4v1fYHNoYvF0zHUqKK9q0CnMN8-_ve9AcX1nJUx" alt="">
+                        <spam>Usuario</spam>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 
 
 
