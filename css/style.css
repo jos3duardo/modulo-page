@@ -4,11 +4,17 @@
 font-family: 'Nunito', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 * */
+
+
+body{
+    background: #eff1f4ff;
+}
 #navbar-site-title{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     padding-left: 1.2%;
 }
+
 .son-form-field{
     border-radius: 9px;
     border-width: 1px;
@@ -19,6 +25,7 @@ font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
 
 }
+
 .son-form-field::placeholder {
     color: #c4c8ccff;
     font-family: 'Nunito', sans-serif;
@@ -28,9 +35,11 @@ font-family: 'Nunito Sans', sans-serif;
 #navbar-search-form{
     width: 350px;
 }
+
 #navbar-search-field{
     width: 350px;
 }
+
 #navbar-profile img{
     border-radius: 50px;
     width: 12%;
@@ -40,4 +49,9 @@ font-family: 'Nunito Sans', sans-serif;
     padding-left: 4%;
     color: #262d37ff;
     font-family: 'Nunito', sans-serif;
+}
+
+#son-navbar{
+    background-color: #ffffff;
+    box-shadow: 8px 2px 6px rgba(164,164,164,0.3);
 }
